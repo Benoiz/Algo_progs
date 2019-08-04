@@ -56,7 +56,7 @@ e.g.
 **'./rand 10 | ./my_sort --bubble'**
 or
 **'./my_sort --path ./rand_dig_100.txt --quick'**
-* Output
+* Output:
 * my_sort --bubble
 * 155
 * 826
