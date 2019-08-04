@@ -50,7 +50,8 @@ from file: **'double_num -path ./rand_dig_100.txt'**
 * 1850
 * ...
 
-(3) 'my_sort' is able to sort numbers it get from stdin or file. Available sorting algorithms are atm 'bubble sort' (--bubble), 'selection sort' (--selection), 'insertion sort' (--insertion) and 'quick sort' (--quick)
+(3) 'my_sort' is able to sort numbers it gets from stdin or file. Available sorting algorithms are atm 'bubble sort' (--bubble), 'selection sort' (--selection), 'insertion sort' (--insertion) and 'quick sort' (--quick).
+It also shows the time the algorithm needed to sort the array.
 
 e.g.
 **'./rand 10 | ./my_sort --bubble'**
