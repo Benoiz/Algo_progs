@@ -26,6 +26,10 @@ int main(int argc, char** argv) {
     }
     printf("double\n");
     while((temp = fgets(puffer, LINE, fIn))) {
+        if(strcmp(temp, "\n") == 0 ) {
+            printf("no data!");
+            exit(EXIT_FAILURE);
+        }
         if(inputCount > MAXITEMS) {
             printf("Item limit reached! 100 000 is the limit! continuing prog and cutting of exceeding numbers!");
             break;
